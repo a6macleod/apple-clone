@@ -1,3 +1,53 @@
-h1 {
-	background: black;
+.billboard {
+	position: relative;
+	width: 100%;
+	background: gray;
+}
+
+.hero {
+	background-image: url(images/your_verse_hero_2x.jpg);
+	background-position: 0 -800px;
+	background-size: 1500px;
+	background-repeat: no-repeat;
+	height: 570px;
+
+	display: grid;
+	grid-template-rows: 1fr 2fr;
+	justify-items: center;
+	overflow: hidden;
+}
+
+.top-nav {
+	position: relative;
+}
+
+.top-nav ul {
+	display: grid;
+	grid-template-columns: repeat(10, auto);
+	position: relative;
+	top: 90px;
+}
+
+.top-nav li {
+	padding: 10px 30px;
+	background-color: red;
+	border: 1px solid grey;
+	font-size: 15px;
+}
+
+.top-nav .first {
+	border-radius: 5px 0 0 5px;
+}
+
+.top-nav .icon {
+	font-size: 20px;
+	padding: 10px 40px;
+}
+
+.top-nav .last {
+	border-radius: 0 5px 5px 0;
+}
+
+.search-bar input {
+	width: 50px;
 }
