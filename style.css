@@ -183,6 +183,6 @@ aside .promo {
 /* legal section */
 .legal {
 	display: grid;
-	grid-template-columns: auto auto;
-	justify-items: end;
+	grid-template-columns: auto 1fr;
+	justify-items: start;
 }
