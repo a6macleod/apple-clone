@@ -148,7 +148,6 @@ aside .promo {
 	grid-gap: 20px;
 	margin: 10px 15%;
 	font-size: 10px;
-	/*color: rgb(84, 84, 84);*/
 }
 
 .home-footer .piped {
@@ -157,7 +156,6 @@ aside .promo {
 
 .piped a {
 	padding: 5px;
-	color: ;
 }
 
 .home-footer,
@@ -173,10 +171,18 @@ aside .promo {
 	text-decoration: underline;
 }
 
+/* piped links in footer */
 .piped li {
 	border-right: 1px solid rgb(84, 84, 84);
 }
 
 .piped #last {
 	border: 0;
+}
+
+/* legal section */
+.legal {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-items: end;
 }
