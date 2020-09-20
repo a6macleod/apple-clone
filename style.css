@@ -132,10 +132,11 @@ h2 {
 }
 
 /* Aside with promo links */
-aside {
-	max-width: 100%;
-}
 aside .promos {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
+}
+
+aside .promo {
+	max-width: 100%;
 }
